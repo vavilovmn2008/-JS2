@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+  background: lightgrey;
+}
+
+.cart-button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #87cefa;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
+
+.cart-button:hover {
+  box-shadow: 1px 2px 10px #999;
+}
+
+.cartWrapper {
+  position: relative;
+}
+
+.cartPopup {
+  position: absolute;
+  right: 0;
+  background: #FFF;
+  border: 1px solid #ddd;
+  min-width: 200px;
+}
+
+.cartItemsTable {
+  width: 500px;
+  border-collapse: collapse;
+}
+.cartItemsTable td {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+.cartTableHeader {
+  background: #dddd;
+  text-align: center;
+}
+
+.actionButtonsHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.actionButtonsHolder button {
+  width: 30%;
+}
+
+.main {
+  width: 100%;
+  min-height: 100%;
+}
+
+.goods-list {
+  display: flex;
+  justify-content: left;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.goods-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #999;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px #999;
+  padding: 12px 7px;
+  width: 20%;
+  text-align: center;
+  margin: 20px;
+}
+
+.good-item-img-placeholder {
+  width: 90px;
+  height: 50px;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+}
+.good-item-title,
+.good-item-price,
+.good-item-stock {
+  padding: 5px;
+}
+
+.good-item-button {
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.good-img {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+}

@@ -9,7 +9,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+     "webpack-dev-server": "^3.11.2"
+  },
   "devDependencies": {
     "jasmine": "^3.7.0",
     "webpack": "^5.28.0",
